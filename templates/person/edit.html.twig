@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier{% endblock %}
+
+{% block body %}
+    <div class="max-w-md mx-auto mt-10">
+        <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Modifier</h1>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            {{ include('person/_form.html.twig', {'button_label': 'Mettre à jour'}) }}
+        </div>
+
+        <div class="mt-4 text-center">
+             <a href="{{ path('app_personne_index') }}" class="text-sm text-gray-500 hover:text-gray-700">
+                Retour à la liste
+            </a>
+        </div>
+    </div>
+{% endblock %}
