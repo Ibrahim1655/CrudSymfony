@@ -5,7 +5,7 @@ Petit repo pour m'exercer sur Symfony en dehors des cours.
 Je suis étudiant en **BUT MMI** (Métiers du Multimédia et de l'Internet), parcours **Développement Web et Dispositifs Interactifs**.
 On commence officiellement Symfony au **Semestre 3** , mais j'ai voulu creuser le sujet de mon côté pour ne pas être perdu et comprendre comment fonctionne un framework MVC.
 
-## 🚀 Ce que contient ce projet
+##  Ce que contient ce projet
 C'est un exercice classique : un **CRUD** pour gérer un annuaire de personnes.
 
 J'ai utilisé :
